@@ -1,0 +1,32 @@
+---
+
+name: testing2767
+
+tags:
+    - python
+    - flask
+
+repos:
+    release: apps-2019
+    snapshot: snapshot-2019
+
+containers:
+    flask:
+        command: indy run --supervised control run gunicorn
+        count: 2
+        cpu: 256
+        memory: 512
+        ports:
+            - port: 11225
+
+              # this is what this container will register as in our service discovery mesh
+              service_name: testing2767
+
+              # if legacy services that don't participate in service discovery need to reach this
+              # service then you can register it with the ALB
+              use_alb: true
+              health_check: /api/v1/health_check/
+
+        # if you use alembic you'll need to uncomment the below before deploy task to run your migrations
+        # before_deploy:
+        #     - indy run --direct alembic upgrade head

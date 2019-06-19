@@ -1,0 +1,65 @@
+aniso8601==1.2.0          # via flask-restful
+asn1crypto==0.24.0        # via cryptography
+blinker==1.4              # via nwutils
+boto3==1.9.118            # via nwpy-awskms, nwutils
+boto==2.49.0              # via nwutils
+botocore==1.12.118        # via boto3, s3transfer
+certifi==2019.3.9         # via requests
+cffi==1.12.2              # via cryptography
+chardet==3.0.4            # via requests
+click==6.7                # via flask, nwpy-cli, nwpy-nwmonitor
+colorlog==2.7.0           # via nwpy-cli, nwpy-logging
+contextlib2==0.5.5        # via raven
+cryptography==2.6.1       # via nwpy-crypto, nwpy-http-sdks, nwutils, pyopenssl, requests
+datadog==0.22.0           # via nwpy-nwmonitor
+decorator==4.1.2          # via datadog
+docutils==0.14            # via botocore
+enum34==1.1.6             # via cryptography, nwutils
+flask-restful==0.3.5      # via nw-api
+flask==0.12.4
+future==0.17.1            # via lz4
+futures==3.2.0            # via s3transfer
+gevent==1.1.2             # via nwpy-gunicorn
+greenlet==0.4.15          # via gevent
+gunicorn==19.7.1          # via nwpy-gunicorn
+identity-acls==1.77.0     # via nw-api
+idna==2.8                 # via requests
+ipaddress==1.0.22         # via cryptography, nw-api
+itsdangerous==0.24        # via flask
+jinja2==2.10.1            # via flask, nwpy-app-config
+jmespath==0.9.4           # via boto3, botocore
+lz4==2.1.2                # via nwpy-http-sdks
+markupsafe==1.1.1         # via jinja2
+meld3==1.0.2              # via supervisor
+newrelic==4.8.0.110       # via nwpy-deployable
+nw-api==2.43.0
+nwpy-app-config==1.1.8    # via nwpy-deployable
+nwpy-awskms==0.3.17       # via nwpy-app-config
+nwpy-cli==2.0.0           # via nwpy-deployable
+nwpy-crypto==0.1.0        # via nw-api
+nwpy-deployable==1.3.0    # via nwpy-gunicorn
+nwpy-gunicorn==1.1.1
+nwpy-http-sdks==3.2.1     # via nw-api
+nwpy-logging==2.6.0       # via nw-api, nwpy-http-sdks, nwpy-nwmonitor, nwutils
+nwpy-nwmonitor==1.15.5    # via nw-api, nwpy-http-sdks
+nwpy-validation==1.1.6    # via nw-api, nwpy-http-sdks
+nwutils[crypto]==3.3.0    # via nw-api, nwpy-http-sdks, nwpy-nwmonitor
+psutil==5.4.7             # via nwpy-deployable
+pycparser==2.19           # via cffi
+pycryptodome==3.7.2       # via nwutils
+pyjwt==1.7.1              # via nw-api
+pyopenssl==19.0.0         # via requests
+python-dateutil==2.8.0    # via aniso8601, botocore, nwpy-validation
+python-json-logger==0.1.5  # via nwpy-logging
+pytz==2018.9              # via flask-restful
+pyyaml==5.1               # via nwpy-app-config
+raven==5.32.0             # via nwpy-logging
+requests[security]==2.22.0  # via datadog, nw-api, nwpy-http-sdks, nwpy-nwmonitor
+s3transfer==0.2.0         # via boto3
+schematics==2.1.0         # via nw-api, nwpy-validation
+setproctitle==1.1.10      # via nwpy-deployable
+simplejson==3.10.0        # via datadog
+six==1.12.0               # via cryptography, flask-restful, nwpy-app-config, nwpy-awskms, nwpy-cli, nwpy-crypto, nwpy-deployable, nwpy-gunicorn, nwpy-http-sdks, nwpy-logging, nwpy-nwmonitor, nwpy-validation, pyopenssl, python-dateutil
+supervisor==3.3.3         # via nwpy-deployable
+urllib3==1.24.2           # via botocore, nwpy-http-sdks, nwpy-nwmonitor, requests
+werkzeug==0.13            # via flask, nw-api

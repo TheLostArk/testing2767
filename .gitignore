@@ -1,0 +1,35 @@
+# Project files
+.idea/
+*.iml
+.project
+.pydevproject
+.ropeproject
+.settings
+.uwsgi-reload
+/.vscode/
+
+# Build artifacts
+/build/
+/dist/
+/configs/
+/logs/
+.cache
+
+*.egg-info
+__pycache__/
+*.py[cod]
+
+# Test output
+nosetests.xml
+src/.coverage
+src/cover
+.noseids
+.coverage
+
+# Misc
+.DS_Store
+*#
+*~
+
+# Testing
+dump.rdb
