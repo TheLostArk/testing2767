@@ -44,7 +44,7 @@ nwpy-logging==2.6.0       # via nw-api, nwpy-http-sdks, nwpy-nwmonitor, nwutils
 nwpy-nwmonitor==1.15.5    # via nw-api, nwpy-http-sdks
 nwpy-validation==1.1.6    # via nw-api, nwpy-http-sdks
 nwutils[crypto]==3.3.0    # via nw-api, nwpy-http-sdks, nwpy-nwmonitor
-psutil==5.4.7             # via nwpy-deployable
+psutil==5.6.6             # via nwpy-deployable
 pycparser==2.19           # via cffi
 pycryptodome==3.7.2       # via nwutils
 pyjwt==1.7.1              # via nw-api
