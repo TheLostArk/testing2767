@@ -10,7 +10,7 @@ chardet==3.0.4            # via requests
 click==6.7                # via flask, nwpy-cli, nwpy-nwmonitor
 colorlog==2.7.0           # via nwpy-cli, nwpy-logging
 contextlib2==0.5.5        # via raven
-cryptography==2.6.1       # via nwpy-crypto, nwpy-http-sdks, nwutils, pyopenssl, requests
+cryptography==3.2       # via nwpy-crypto, nwpy-http-sdks, nwutils, pyopenssl, requests
 datadog==0.22.0           # via nwpy-nwmonitor
 decorator==4.1.2          # via datadog
 docutils==0.14            # via botocore
